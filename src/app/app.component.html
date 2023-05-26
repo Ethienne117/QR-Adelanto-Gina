@@ -1,0 +1,10 @@
+<body>
+  <h1>QR Avance Proyecto Final</h1>
+  <div id="qr">
+    <qrcode [qrdata]="myAngularxQrCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+  </div>
+  <br>
+  <div id="boton">
+    <button (click)="generarQR()" class="btn btn-danger">Generar QR</button>  
+  </div>
+</body>
